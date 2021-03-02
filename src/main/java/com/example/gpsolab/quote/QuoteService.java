@@ -12,7 +12,7 @@ public class QuoteService implements Supplier<Quote> {
   @Override
   public Quote get() {
     return Quote.builder()
-        .author("Yoda")
+        .author("Master Yoda")
         .quote(FAKER.yoda().quote())
         .build();
   }
