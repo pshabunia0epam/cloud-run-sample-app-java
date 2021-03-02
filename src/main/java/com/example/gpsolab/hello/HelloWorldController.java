@@ -30,7 +30,6 @@ public final class HelloWorldController {
    */
   @GetMapping("/hello")
   public String helloWorld(Model model) {
-
     // Get Cloud Run environment variables.
     String revision = System.getenv("K_REVISION") == null ? "???" : System.getenv("K_REVISION");
     String service = System.getenv("K_SERVICE") == null ? "???" : System.getenv("K_SERVICE");
@@ -40,5 +39,4 @@ public final class HelloWorldController {
     model.addAttribute("service", service);
     return "hello";
   }
-
 }
