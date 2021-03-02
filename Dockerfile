@@ -1,4 +1,4 @@
-# Use the official maven/Java 8 image to create a build artifact.
+# Use the official maven3/Java11 image to create a build artifact.
 # https://hub.docker.com/_/maven
 FROM maven:3-jdk-11-slim AS build-env
 
