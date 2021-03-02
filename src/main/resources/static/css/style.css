@@ -1,0 +1,25 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-display: fallback;
+	background: url('../img/cloud_bg.svg');
+	background-size: cover;
+	background-position: center;
+	line-height: 1.6;
+ }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: black url('../img/dark_bg.svg');
+        color:white;
+    }
+	a {
+		color: #8AB4F8;
+	}
+	a:visited {
+		color: #b48af8;
+	}
+	.cta a {
+		color: white;
+	}
+}
+

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang=en xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset=utf-8>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sample App | Cloud Run</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="preload" as="font" />
+</head>
+
+<body>
+  <div>
+		<h1>Hello World!</h1>
+		<p>Service Name: <span class="code" th:text="${service}" /></p>
+		<p>Service Revision: <span class="code" th:text="${revision}"/></p>
+	</div>
+</body>
+</html>
