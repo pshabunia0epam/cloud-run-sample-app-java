@@ -8,3 +8,5 @@ The app renders a simple webpage (`/hello`) and a few REST endpoints(`/quote`, `
 Cloud Code 
 * https://cloud.google.com/code
 * https://github.com/russwolf/awesome-cloudclode
+
+// TODO: CONTRIBUTING.md
